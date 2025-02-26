@@ -1,7 +1,10 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-API_KEY = "720678908a1bfc52b5aed3ef7ebc2d9d"  # Reemplazá con tu API Key real
-CIUDAD = "Buenos Aires"  # Ciudad fija
+load_dotenv(dotenv_path="api.env")
+API_KEY = os.getenv("API_KEY")
+CIUDAD = "Buenos Aires" 
 
 def obtener_clima(ciudad):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={ciudad}&appid={API_KEY}&units=metric&lang=es"
