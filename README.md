@@ -1,6 +1,7 @@
 Obtener Clima de una Ciudad
 
 Este script obtiene el clima actual de una ciudad utilizando la API de OpenWeatherMap.
+
 📌 Características
 
   - Obtiene la temperatura actual en grados Celsius. 
