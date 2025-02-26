@@ -10,15 +10,18 @@ Este script obtiene el clima actual de una ciudad utilizando la API de OpenWeath
    Instalación y Uso
 
    1. **Clonar este repositorio**:
+      
     ```bash
       git clone https://github.com/BrunoMDonato/obtener-clima.git  
       cd obtener-clima
     ```
    2. **Instalar las dependencias**:
+      
     ```bash
       pip install requests
     ```
    3. **Ejecutar script**:
+      
     ```bash
       python clima.py
     ```
